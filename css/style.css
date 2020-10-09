@@ -62,7 +62,9 @@ links in the navigation are in the hover or focus state.*/
 }
 /*Your Code Here*/
 /*Write selector/rule property to style all elements when in focus*/
-
+nav a:hover, nav a:focus{
+  text-decoration: underline;
+}
 
 nav{
   background-color: #ddd;
@@ -77,19 +79,13 @@ footer{
   text-align: center;
 }
 
-footer{
-  background-color: #ddd;
-  color: white;
-  padding-top: 30px;
-  text-align: center;
-}
 
 
 .container{
   display: grid;
   grid-row-gap: 15px;
   grid-template-columns: 1fr, 5fr, 1fr;
-  grid-template-rows: auto, auto, auto, auto, auto;
+  grid-template-rows: auto auto auto auto auto;
 }
 
 header{
