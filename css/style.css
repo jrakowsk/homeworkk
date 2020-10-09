@@ -84,7 +84,7 @@ footer{
 .container{
   display: grid;
   grid-row-gap: 15px;
-  grid-template-columns: 1fr, 5fr, 1fr;
+  grid-template-columns: 1fr 5fr 1fr;
   grid-template-rows: auto auto auto auto auto;
 }
 
@@ -117,7 +117,7 @@ header p{
 
 .about-image, .method-image, .clients-image, .contact-image{
   grid-column: 1 / span 3;
-  max-height: 700 px;
+  max-height: 700px;
   overflow: hidden;
 
 }
